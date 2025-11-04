@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+transformers>=4.42.0
+accelerate>=0.31.0
+# Install torch separately wih correct CUDA build if needed, e.g.:
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch
+python-dotenv>=1.0.0
+dotenv
